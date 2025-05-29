@@ -60,7 +60,7 @@ function Cart({ show, hideShow, submit, data }) {
                 <p>Please enter your address</p>
                 <textarea
                   rows="4"
-                  cols="50"
+                  cols="30"
                   placeholder="Enter your address here..."
                   type="text"
                   value={address}
