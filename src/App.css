@@ -1,0 +1,83 @@
+#root {
+  margin: 1rem auto;
+  padding: 1rem;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  position: relative;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  background-color: #007bff;
+  color: white;
+  width: 100%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .hero {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1025px) {
+  .hero {
+    font-size: 1.5rem;
+  }
+}
+
+.prodHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.prodList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+}
+.product {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+/* Center table row data and alternate row colors */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  text-align: center;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 0.75rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
