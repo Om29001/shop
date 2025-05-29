@@ -101,6 +101,13 @@ button:focus-visible {
   position: relative;
   transform: translateY(0);
 }
+@media (max-width: 600px) {
+  .cartCon {
+    max-width: 95vw;
+    max-height: 80vh;
+    padding: 0.5rem;
+  }
+}
 .cartCon {
   width: 100%;
   max-height: 400px;
